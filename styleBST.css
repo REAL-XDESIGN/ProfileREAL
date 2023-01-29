@@ -1,150 +1,143 @@
 .header {
-    background: linear-gradient(90.16deg, rgba(36, 36, 109, 0.8) -4.81%, rgba(90, 0, 84, 0.8) 105.57%);
+  background: linear-gradient(90.16deg, rgba(36, 36, 109, 0.8) -4.81%, rgba(90, 0, 84, 0.8) 105.57%);
 }
 
-.button__call {
-    src: url(contacto.html);
-}
-
-/*# sourceMappingURL=styleBST.css.map */
 .header__button {
-    background-color: #F4F4F4;
+  background-color: #F4F4F4;
 }
 
 .header__circle {
-    padding-right: 20px;
-    border-radius: 100%;
-    background: #6bd45a;
-    opacity: 0.8;
-    margin: 8px;
+  padding-right: 20px;
+  border-radius: 100%;
+  background: #6bd45a;
+  opacity: 0.8;
+  margin: 8px;
 }
 
 .header__button__writeme {
-    background-color: #F4F4F4;
+  background-color: #F4F4F4;
 }
 
 .fa-brands {
-    color: #19750b;
+  color: #19750b;
 }
 
 .home__h1 {
-    font-family: "Urbanist", sans-serif;
-    font-weight: 700;
-    font-size: 64px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
 }
 
 .home__strong {
-    color: #5C5CAD;
+  color: #5C5CAD;
 }
 
 .home__h3 {
-    font-family: "Urbanist", sans-serif;
-    font-size: 28px;
-    color: #5D5D5D;
+  font-family: "Urbanist", sans-serif;
+  font-size: 28px;
+  color: #5D5D5D;
 }
 
 .button__call {
-    background-color: #6c008c;
-    font-family: "Urbanist", sans-serif;
-    font-weight: 500;
-    font-size: 24px;
+  background-color: #6c008c;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 .exper__vBar {
-    margin: 0px 50px;
-    background-color: #6A5DA8;
-    width: 4px;
-    height: 80px;
-    border-radius: 2px;
+  margin: 0px 50px;
+  background-color: #6A5DA8;
+  width: 4px;
+  height: 80px;
+  border-radius: 2px;
 }
 
 .item__date {
-    font-family: "Urbanist", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .exper__h2 {
-    color: #5C5CAD;
+  color: #5C5CAD;
 }
 
 .data__h3 {
-    color: #333399;
+  color: #333399;
 }
 
 .data__h4 {
-    color: #6C008C;
+  color: #6C008C;
 }
 
 p {
-    color: #333399;
+  color: #333399;
 }
 
 .skill {
-    color: #F2F2F2;
-    background-color: #333399;
+  color: #F2F2F2;
+  background-color: #333399;
 }
 
 .int__bar {
-    margin: 0px 50px;
-    background-color: #F2F2F2;
-    width: 4px;
-    height: 80px;
-    border-radius: 2px;
+  margin: 0px 50px;
+  background-color: #F2F2F2;
+  width: 4px;
+  height: 80px;
+  border-radius: 2px;
 }
 
 .int__item {
-    font-family: "Urbanist", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .tec {
-    color: #F2F2F2;
-    background-color: #74006C;
+  color: #F2F2F2;
+  background-color: #74006C;
 }
 
 .int {
-    color: #F2F2F2;
-    background-color: #4D0063;
+  color: #F2F2F2;
+  background-color: #4D0063;
 }
 
 .footer__bar {
-    background-color: #4D0063;
-    width: 200px;
-    height: 4px;
-    border-radius: 2px;
+  background-color: #4D0063;
+  width: 200px;
+  height: 4px;
+  border-radius: 2px;
 }
 
 .footer__h2 {
-    font-family: "Urbanist", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
-    color: #6C008C;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #6C008C;
 }
 
 .footer__h3 {
-    font-family: "Urbanist", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: #333399;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #333399;
 }
 
 .footer__p {
-    font-family: "Urbanist", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    color: #5D5D5D;
-}
-
-/*# sourceMappingURL=styleBST.css.map */
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #5D5D5D;
+}/*# sourceMappingURL=styleBST.css.map */
