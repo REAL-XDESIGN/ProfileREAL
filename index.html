@@ -7,14 +7,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/styleBST.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleBST.css">
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
 
     <title>RealUX|Diseñador</title>
 
@@ -25,45 +31,52 @@
 
 <body>
 
-    <Header class="header container-fluid">
-        <div class="header__section row">
-            <img class="header__img" src="/src/Logo REAL-04.png" alt="Logo RealUX" width="50" height="50">
-            <div class="header__button">
-                <i class="header__circle">
+    <Header class="header container-fluid sticky-top d-flex">
+        <div><img class="header__img flex-fill" src="/src/Logo REAL-b&w.svg" alt="Logo RealUX" width="80" height="80">
+        </div>
+        <div class="header__section d-flex justify-content-between flex-fill">
 
+            <div class="header__button btn btn-light rounded-pill  m-4 ">
+                <i class="header__circle ">
                 </i>Abierto a nuevos proyectos
+            </div>
+            <div class="header__button__writeme btn btn-light rounded-pill  m-4 ">
+                Escribeme
+                <i class="fa-brands fa-whatsapp"></i>
             </div>
         </div>
 
-        <div class="header__button__writeme">
-            Escribeme
-            <i class="fa-brands fa-whatsapp"></i>
-        </div>
+
 
     </Header>
     <Main>
 
-        <section class="home text-center">
+        <section class="home text-center my-5">
             <div class="home__secH1 container justify-content-center col-8">
-                <h1 class="home__h1 text-center"><span class="home__span">Acelere el crecimiento</span> de su empresa u organización
+                <h1 class="home__h1 text-center "><strong class="home__strong">Acelere el crecimiento</strong> de su
+                    empresa u
+                    organización
                     mediante
-                    el <span class="home__span">diseño de aplicaciones
-                        web y móviles.</span></h1>
+                    el <strong class="home__strong">diseño de aplicaciones
+                        web y móviles.</strong></h1>
             </div>
-            <div class="home__text container col-4">
-                <h3 class="home__h3 text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est mollitia ut harum
+            <div class="home__text container col-5 my-5">
+                <h3 class="home__h3 text-center lead px-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                    mollitia ut harum
                     dolor, impedit aut iure quod a recusandae at id unde?</h3>
             </div>
-            <div class="button__call btn btn-primary text-center">
-                <div class="home__contact">Contáctame<span class="material-symbols-outlined">
-                        East
-                    </span></div>
-            </div> <br>
-            <div class="home__videosec text-center">
-                <div src="" class="home__video">
-                    <iframe class="rounded" src="https://www.youtube.com/embed/zHAa-m16NGk?autoplay=1&mute=1"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            <a class="button__call btn btn-primary rounded-pill my-5 px-4 py-3 align-items-center "
+                href="/contacto.html">
+                Contáctame<span class="material-symbols-outlined align-self-center mx-3 ">
+                    arrow_right_alt
+                </span>
+            </a> <br>
+            <div class="home__videosec text-center ">
+                <div src="" class="home__video ratio-16x9 ">
+                    <iframe class="rounded rounded-5" width="800" height="420"
+                        src="https://www.youtube.com/embed/an5LH3K44ks?controls=0" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
             </div>
@@ -71,17 +84,17 @@
         </section>
 
 
-        <section class="exper">
-            <h2 class="exper__h2">Experiencia Laboral</h2>
+        <section class="exper container d-flex">
+            <h2 class="exper__h2 col-4">Experiencia Laboral</h2>
             <aside class="exper__slide">
-                <ul>
-                    <li class="exper__item item">
-                        <div class="exper__itemDate">
-                            <p class="item__date">Abr 2022 - Actual</p>
-                            <p class="item__date">Cali, Colombia</p>
+                <ul class="my-5 px-0">
+                    <li class="exper__item item d-flex ">
+                        <div class="exper__itemDate col-4 pt-3 ">
+                            <p class="item__date text-end">Abr 2022 - Actual</p>
+                            <p class="item__date text-end">Cali, Colombia</p>
                         </div>
-                        <hr class="exper__vBar">
-                        <aside class="exper__data data">
+                        <hr class="exper__vBar m-2">
+                        <aside class="exper__data data col-7">
                             <h3 class="data__h3">Plataforma Tecnológica</h3>
                             <h4 class="data__h4">Diseñador Web</h4>
                             <p class="data__p">Empresa tecnológica con soluciones de software para el control de acceso,
@@ -91,13 +104,13 @@
                             <p class="data__p">Creación de piezas gráficas para el departamento comercial.</p>
                         </aside>
                     </li>
-                    <li class="exper__item item">
-                        <div class="exper__itemDate">
+                    <li class="exper__item item d-flex">
+                        <div class="exper__itemDate col-4 pt-3">
                             <p class="item__date">Nov 2020 - Abr 2022</p>
                             <p class="item__date">Cali, Colombia</p>
                         </div>
-                        <hr class="exper__vBar">
-                        <aside class="expert__data data">
+                        <hr class="exper__vBar m-2">
+                        <aside class="exper__data data col-7">
                             <h3 class="data__h3">abka Colombia</h3>
                             <h4 class="data__h4">Diseñador de contenido</h4>
                             <p class="data__p">Grupo empresarial de soluciones tecnológicas para la administración y
@@ -108,13 +121,13 @@
                             </p>
                         </aside>
                     </li>
-                    <li class="exper__item item">
-                        <div class="exper__itemDate">
+                    <li class="exper__item item d-flex">
+                        <div class="exper__itemDate col-4 pt-3">
                             <p class="item__date">Jun 2018 - Nov 2020</p>
                             <p class="item__date">Cali, Colombia</p>
                         </div>
-                        <hr class="exper__vBar">
-                        <aside class="expert__data data">
+                        <hr class="exper__vBar m-2">
+                        <aside class="expert__data data col-7">
                             <h3 class="data__h3">Plataforma Tecnológica</h3>
                             <h4 class="data__h4">Diseñador de contenido</h4>
                             <p class="data__p">Empresa tecnológica con soluciones de software para el control de acceso,
@@ -129,13 +142,13 @@
                             </p>
                         </aside>
                     </li>
-                    <li class="exper__item item">
-                        <div class="exper__itemDate">
+                    <li class="exper__item item d-flex">
+                        <div class="exper__itemDate col-4 pt-3">
                             <p class="item__date">Abr 2018 - Jul 2020</p>
                             <p class="item__date">Cali, Colombia</p>
                         </div>
-                        <hr class="exper__vBar">
-                        <aside class="expert__data data">
+                        <hr class="exper__vBar m-2">
+                        <aside class="expert__data data col-7">
                             <h3 class="data__h3">MaeFloresta</h3>
                             <h4 class="data__h4">Formador</h4>
                             <p class="data__p">Startup de la industria creativa que brinda productos y servicios para
@@ -146,13 +159,13 @@
 
                         </aside>
                     </li>
-                    <li class="exper__item item">
-                        <div class="exper__itemDate">
+                    <li class="exper__item item d-flex">
+                        <div class="exper__itemDate col-4 pt-3">
                             <p class="item__date">Jun 2014 - Jul 2020</p>
                             <p class="item__date">Cali, Colombia</p>
                         </div>
-                        <hr class="exper__vBar">
-                        <aside class="expert__data data">
+                        <hr class="exper__vBar m-2">
+                        <aside class="expert__data data col-7">
                             <h3 class="data__h3">Fundación Baila Bolero</h3>
                             <h4 class="data__h4">Diseñador</h4>
                             <p class="data__p">Fundación artistica y cultural dedicada a la danza y producción de
@@ -167,39 +180,39 @@
                 </ul>
             </aside>
         </section>
-        <section class="int">
-            <h2 class="int__h2">Habilidades Interpersonales</h2>
-            <ul class="int__list">
+        <section class="skill pt-5">
+            <h2 class="int__h2 container text-center">Habilidades Interpersonales</h2>
+            <ul class="int__list d-flex py-5 align-items-center">
                 <hr class="int__bar">
-                <li class="int__item">Capacidad de análisis</li>
+                <li class="int__item list-inline-item text-center">Capacidad de análisis</li>
                 <hr class="int__bar">
-                <li class="int__item">Lenguaje visual</li>
+                <li class="int__item list-inline-item text-center">Lenguaje visual</li>
                 <hr class="int__bar">
-                <li class="int__item">Gestión de equipo</li>
+                <li class="int__item list-inline-item text-center">Gestión de equipo</li>
                 <hr class="int__bar">
-                <li class="int__item">Motivación y curiosidad</li>
+                <li class="int__item list-inline-item text-center">Motivación y curiosidad</li>
                 <hr class="int__bar">
-                <li class="int__item">Capacidad de persuación</li>
+                <li class="int__item list-inline-item text-center">Capacidad de persuación</li>
                 <hr class="int__bar">
-                <li class="int__item">Habilidades comunicativas</li>
+                <li class="int__item list-inline-item text-center">Habilidades comunicativas</li>
                 <hr class="int__bar">
-                <li class="int__item">Flexibilidad cognitiva</li>
+                <li class="int__item list-inline-item text-center">Flexibilidad cognitiva</li>
                 <hr class="int__bar">
             </ul>
         </section>
-        <section class="proy container">
+        <section class="proy container ">
             <h2 class="proy__h2">Proyectos</h2>
             <section class="row">
                 <div class="column col-sm-12 col-md-6 col-lg-3">
-                    <div class="proyects_item item__11 rounded"  >
-                        <h3 class="proyects__h3" >GitHub</h3>
+                    <div class="proyects_item item__11 rounded">
+                        <h3 class="proyects__h3">GitHub</h3>
                     </div>
                     <div class="proyects_item item__34 rounded">
                         <h3 class="proyects__h3">Tributo</h3>
                     </div>
                 </div>
                 <div class="column col-sm-12 col-md-6 col-lg-3">
-                    
+
                     <div class="proyects_item item__34 rounded">
                         <h3 class="proyects__h3 ">Smart Access</h3>
                     </div>
@@ -211,7 +224,7 @@
                     <div class="proyects_item item__43 rounded">
                         <h3 class="proyects__h3">SalsaTrip</h3>
                     </div>
-                    <div class="proyects_item item__11 rounded" >
+                    <div class="proyects_item item__11 rounded">
                         <h3 class="proyects__h3 ">Doble Chequeo</h3>
                     </div>
                 </div>
@@ -225,178 +238,181 @@
                 </div>
             </section>
         </section>
-        <section class="int">
-            <h2 class="int__h2">Habilidades Técnicas</h2>
-            <ul class="int__list">
+        <section class="tec pt-5">
+            <h2 class="int__h2 container text-center">Habilidades Técnicas</h2>
+            <ul class="int__list d-flex py-5 align-items-center justify-content-between">
                 <hr class="int__bar">
-                <li class="int__item">Adobe Illustrator</li>
+                <li class="int__item list-inline-item text-center">Adobe <br> Illustrator</li>
                 <hr class="int__bar">
-                <li class="int__item">Adobe Photoshop</li>
+                <li class="int__item list-inline-item text-center">Adobe <br> Photoshop</li>
                 <hr class="int__bar">
-                <li class="int__item">Adobe AfterEffects</li>
+                <li class="int__item list-inline-item text-center ">Adobe <br> AfterEffects</li>
                 <hr class="int__bar">
-                <li class="int__item">Adobe Premiere Pro</li>
+                <li class="int__item list-inline-item text-center ">Adobe <br> Premiere Pro</li>
                 <hr class="int__bar">
-                <li class="int__item">Figma</li>
+                <li class="int__item list-inline-item text-center">Figma</li>
                 <hr class="int__bar">
-                <li class="int__item">HTML</li>
+                <li class="int__item list-inline-item text-center">HTML</li>
                 <hr class="int__bar">
-                <li class="int__item">css</li>
+                <li class="int__item list-inline-item text-center">css</li>
                 <hr class="int__bar">
             </ul>
-            <section class="exper">
-                <div class="exper__block">
-                    <h2 class="exper__h2">Cursos y Formación</h2>
-                    <h3 class="data__h4">Nivel de Ingles: A2 </h3>
-                </div>
-                <aside class="exper__slide">
-                    <ul>
-                        <li class="exper__item item">
-                            <div class="exper__itemDate">
-                                <p class="item__date">Nov 2022 - Ene 2023</p>
-                                <p class="item__date">Online</p>
-                            </div>
-                            <hr class="exper__vBar">
-                            <aside class="expert__data data">
-                                <h3 class="data__h3">CODERHOUSE</h3>
-                                <h4 class="data__h4">Desarrollo Web</h4>
+        </section>
+        <section class="exper container d-flex">
+            <div class="exper__block col-4">
+                <h2 class="exper__h2 ">Cursos y Formación</h2>
+                <h3 class="data__h4">Nivel de Ingles: A2 </h3>
+            </div>
+            <aside class="exper__slide">
+                <ul class="my-5 px-0">
+                    <li class="exper__item item d-flex my-5">
+                        <div class="exper__itemDate col-4 pt-3">
+                            <p class="item__date">Nov 2022 - Ene 2023</p>
+                            <p class="item__date">Online</p>
+                        </div>
+                        <hr class="exper__vBar m-2">
+                        <aside class="expert__data data col-7">
+                            <h3 class="data__h3">CODERHOUSE</h3>
+                            <h4 class="data__h4">Desarrollo Web</h4>
 
-                            </aside>
-                        </li>
-                        <li class="exper__item item">
-                            <div class="exper__itemDate">
-                                <p class="item__date">Jun 2022 - Sep 2022</p>
-                                <p class="item__date">Online</p>
-                            </div>
-                            <hr class="exper__vBar">
-                            <aside class="expert__data data">
-                                <h3 class="data__h3">CODERHOUSE</h3>
-                                <h4 class="data__h4">Diseño UX/UI</h4>
+                        </aside>
+                    </li>
+                    <li class="exper__item  d-flex my-5">
+                        <div class="exper__itemDate col-4 pt-3">
+                            <p class="item__date">Jun 2022 - Sep 2022</p>
+                            <p class="item__date">Online</p>
+                        </div>
+                        <hr class="exper__vBar m-2">
+                        <aside class="expert__data data col-7">
+                            <h3 class="data__h3">CODERHOUSE</h3>
+                            <h4 class="data__h4">Diseño UX/UI</h4>
 
-                            </aside>
-                        </li>
-                        <li class="exper__item item">
-                            <div class="exper__itemDate">
-                                <p class="item__date">Feb 2011 - Mar 2022</p>
-                                <p class="item__date">Título Profesional - Cali, Colombia</p>
-                            </div>
-                            <hr class="exper__vBar">
-                            <aside class="expert__data data">
-                                <h3 class="data__h3">Universidad del Valle</h3>
-                                <h4 class="data__h4">Diseñador Industrial</h4>
+                        </aside>
+                    </li>
+                    <li class="exper__item  d-flex my-5">
+                        <div class="exper__itemDate col-4 pt-3">
+                            <p class="item__date">Feb 2011 - Mar 2022</p>
+                            <p class="item__date">Título Profesional - Cali, Colombia</p>
+                        </div>
+                        <hr class="exper__vBar m-2">
+                        <aside class="expert__data data col-7">
+                            <h3 class="data__h3">Universidad del Valle</h3>
+                            <h4 class="data__h4">Diseñador Industrial</h4>
 
-                            </aside>
-                        </li>
-                        <li class="exper__item item">
-                            <div class="exper__itemDate">
-                                <p class="item__date">Feb 2021 - Mar 2021</p>
-                                <p class="item__date">Diplomado / 100 Horas</p>
-                            </div>
-                            <hr class="exper__vBar">
-                            <aside class="expert__data data">
-                                <h3 class="data__h3">Politécnico de Colombia</h3>
-                                <h4 class="data__h4">Gerencia en Marketing</h4>
+                        </aside>
+                    </li>
+                    <li class="exper__item d-flex my-5">
+                        <div class="exper__itemDate col-4 pt-3">
+                            <p class="item__date">Feb 2021 - Mar 2021</p>
+                            <p class="item__date">Diplomado / 100 Horas</p>
+                        </div>
+                        <hr class="exper__vBar m-2">
+                        <aside class="expert__data data col-7">
+                            <h3 class="data__h3">Politécnico de Colombia</h3>
+                            <h4 class="data__h4">Gerencia en Marketing</h4>
 
-                            </aside>
-                        </li>
-                        </li>
-                        <li class="exper__item item">
-                            <div class="exper__itemDate">
-                                <p class="item__date">Feb 2021 - Mar 2021</p>
-                                <p class="item__date">Diplomado / 100 Horas</p>
-                            </div>
-                            <hr class="exper__vBar">
-                            <aside class="expert__data data">
-                                <h3 class="data__h3">Politécnico de Colombia</h3>
-                                <h4 class="data__h4">Community Management</h4>
+                        </aside>
+                    </li>
+                    <li class="exper__item item d-flex my-5">
+                        <div class="exper__itemDate col-4 pt-3">
+                            <p class="item__date">Feb 2021 - Mar 2021</p>
+                            <p class="item__date">Diplomado / 100 Horas</p>
+                        </div>
+                        <hr class="exper__vBar m-2">
+                        <aside class="expert__data data col-7">
+                            <h3 class="data__h3">Politécnico de Colombia</h3>
+                            <h4 class="data__h4">Community Management</h4>
 
-                            </aside>
-                        </li>
-                        <li class="exper__item item">
-                            <div class="exper__itemDate">
-                                <p class="item__date">Abr 2021 - May 2021</p>
-                                <p class="item__date">Curso Online</p>
-                            </div>
-                            <hr class="exper__vBar">
-                            <aside class="expert__data data">
-                                <h3 class="data__h3">Fundación Carlos Slim</h3>
-                                <h4 class="data__h4">Diseño de experiencia de usuario (UX)</h4>
+                        </aside>
+                    </li>
+                    <li class="exper__item item d-flex my-5">
+                        <div class="exper__itemDate col-4 pt-3">
+                            <p class="item__date">Abr 2021 - May 2021</p>
+                            <p class="item__date">Curso Online</p>
+                        </div>
+                        <hr class="exper__vBar m-2">
+                        <aside class="expert__data data col-7">
+                            <h3 class="data__h3">Fundación Carlos Slim</h3>
+                            <h4 class="data__h4">Diseño de experiencia de usuario (UX)</h4>
 
-                            </aside>
-                        </li>
-                        <li class="exper__item item">
-                            <div class="exper__itemDate">
-                                <p class="item__date">Sep 2000 - Jun 2018</p>
-                                <p class="item__date">Bachiller Técnico - Cali, Colombia</p>
-                            </div>
-                            <hr class="exper__vBar">
-                            <aside class="expert__data data">
-                                <h3 class="data__h3">Instituto Técnico San Bosco<h3>
+                        </aside>
+                    </li>
+                    <li class="exper__item item d-flex my-5">
+                        <div class="exper__itemDate col-4 pt-3">
+                            <p class="item__date">Sep 2000 - Jun 2018</p>
+                            <p class="item__date">Bachiller Técnico - Cali, Colombia</p>
+                        </div>
+                        <hr class="exper__vBar m-2">
+                        <aside class="expert__data data col-7">
+                            <h3 class="data__h3">Instituto Técnico San Bosco<h3>
                                     <h4 class="data__h4">Mecánico Industrial</h4>
 
-                            </aside>
-                        </li>
-                    </ul>
+                        </aside>
+                    </li>
+                </ul>
+            </aside>
+        </section>
+        <section class="int pt-5">
+            <h2 class="int__h2 container text-center">Intereses</h2>
+            <ul class="int__list d-flex py-5 align-items-center">
+                <li class="int__item list-inline-item text-center">Formación continua</li>
+                <hr class="int__bar">
+                <li class="int__item list-inline-item text-center">Visión estrategica</li>
+                <hr class="int__bar">
+                <li class="int__item list-inline-item text-center">Design Thinking</li>
+                <hr class="int__bar">
+                <li class="int__item list-inline-item text-center">Diseño UX/UI</li>
+                <hr class="int__bar">
+                <li class="int__item list-inline-item text-center">Desarrollo FrontEnd</li>
+                <hr class="int__bar">
+                <li class="int__item list-inline-item text-center">Ingles</li>
+                <hr class="int__bar">
+                <li class="int__item list-inline-item text-center">Modelado 3D</li>
+                <hr class="int__bar">
+                <li class="int__item list-inline-item text-center">Literatura de liderazgo</li>
+                <hr class="int__bar">
+            </ul>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__block contanier text-center">
+                <img class="footer__img " src="/src/Logo REAL.svg" alt="LogoReal" width="400">
+                <h2 class="footer__h2 ">Alejandro Rendón</h2>
+                <h3 class="footer__h3">Diseñador de productos digitales</h3>
+                <hr class="footer__bar m-2>
+                <p class="footer__p" > Soy un diseñador apasionado por las artes y la tecnología</p>
+
+
+            </div>
+            <div class="link d-flex">
+                <div class="link__ico"><a target="_blank" href="https://www.linkedin.com/in/rendonalejandro/"><i
+                            class="fa-brands fa-linkedin-in"></i></a> </div>
+                <div class="link__ico"><a target="_blank" href="https://github.com/REAL-XDESIGN"> <i
+                            class="fa-brands fa-github"></i></a></div>
+                <div class="link__ico"><a target="_blank" href="https://www.behance.net/alejandrorendn"> <i
+                            class="fa-brands fa-behance"></i></a></div>
+
+            </div>
+
+            <section class="action">
+                <div class="action__flex1">
+                    <p class="action__p">Contactame y trabajemos juntos</p>
+                </div>
+                <aside class="action__button">
+                    <button class="action__contact">Contáctame<span class="material-symbols-outlined">
+                            East
+                        </span></button>
                 </aside>
             </section>
-            <section class="int">
-                <h2 class="int__h2">Intereses</h2>
-                <ul class="int__list">
-                    <li class="int__item">Formación continua</li>
-                    <hr class="int__bar">
-                    <li class="int__item">Visión estrategica</li>
-                    <hr class="int__bar">
-                    <li class="int__item">Design Thinking</li>
-                    <hr class="int__bar">
-                    <li class="int__item">Diseño UX/UI</li>
-                    <hr class="int__bar">
-                    <li class="int__item">Desarrollo FrontEnd</li>
-                    <hr class="int__bar">
-                    <li class="int__item">Ingles</li>
-                    <hr class="int__bar">
-                    <li class="int__item">Modelado 3D</li>
-                    <hr class="int__bar">
-                    <li class="int__item">Literatura de liderazgo</li>
-                    <hr class="int__bar">
-                </ul>
-            </section>
 
-            <footer class="footer">
-                <div class="footer__block">
-                    <img class="footer__img" src="/src/Logo REAL-04.png" alt="LogoReal" width="400">
-                    <h2 class="footer__h2">Alejandro Rendón</h2>
-                    <h3 class="footer__h3">Diseñador de productos digitales</h3>
-                    <hr class="footer__bar">
-                    <p class="footer__p">Soy un diseñador apasionado por las artes y la tecnología</p>
+            <div class="footer__end">
+                <p>Copyright 2022. Alejandro Rendón <br>
+                    Todos los derechos reservados</p>
+            </div>
 
+            <hr class="hr__end">
 
-                </div>
-                <div class="link">
-                    <div class="link__ico"><a target="_blank" href="https://www.linkedin.com/in/rendonalejandro/"><i class="fa-brands fa-linkedin-in"></i></a> </div>
-                    <div class="link__ico"><a target="_blank" href="https://github.com/REAL-XDESIGN"> <i class="fa-brands fa-github"></i></a></div>
-                    <div class="link__ico"><a target="_blank" href="https://www.behance.net/alejandrorendn"> <i class="fa-brands fa-behance"></i></a></div>
-
-                </div>
-
-                <section class="action">
-                    <div class="action__flex1">
-                        <p class="action__p">Contactame y trabajemos juntos</p>
-                    </div>
-                    <aside class="action__button">
-                        <button class="action__contact">Contáctame<span class="material-symbols-outlined">
-                                East
-                            </span></button>
-                    </aside>
-                </section>
-
-                <div class="footer__end">
-                    <p>Copyright 2022. Alejandro Rendón <br>
-                        Todos los derechos reservados</p>
-                </div>
-
-                <hr class="hr__end">
-
-            </footer>
+        </footer>
 
 
 
@@ -404,9 +420,15 @@
 
 
     </Main>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

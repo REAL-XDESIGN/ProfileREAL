@@ -20,9 +20,8 @@ body {
     
     
 }
-.background__image{
     
-}
+
 
 /* HEADER */
 
@@ -101,9 +100,7 @@ body {
 
 /* HOME */
 
-.home {
-    
-}
+
 
 .home__secH1{
     display: flex;
@@ -239,7 +236,7 @@ border-radius: 24px;
     text-align: right;
 }
 
-.item {}
+
 .item__date {
     width: 80%;
     font-size: 24px;
@@ -258,7 +255,7 @@ border-radius: 24px;
 }
 
 
-.data {}
+
 .data__h3 {
     color: #6A5DA8;
     font-size: 32px;
@@ -373,11 +370,10 @@ border-radius: 8px;
     text-align: center;
     margin-top: 20px;
 }
-.footer__block {}
+
 .footer__img {
     width: 550px;
     height: auto;
-    background-color:;
     color: #207a12;
 }
 .footer__h2 {
